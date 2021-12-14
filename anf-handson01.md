@@ -68,7 +68,7 @@ az network public-ip create --resource-group anfdemo-rg \
 
 [GUI: Bastion](images/create-bastion.png)
 
-## 5. Create SUSE linux VM
+## 5. Create SUSE linux VM  ##最悪、ARMテンプレートでのデプロイができるように準備する（by Igarashi）
 - Virtual machine name: suse01
 - Region: Japan East
 - Image: **SUSE linux 15 SP3**
@@ -80,7 +80,7 @@ az network public-ip create --resource-group anfdemo-rg \
 - VNet: **anfjpe-vnet**
 - Subnet: **vm-subnet**
 - Public IP: **None** 
-
+　
 ## 6. Create NetApp account
 - ANF account name: anfjpe
 - Location: Japan East
