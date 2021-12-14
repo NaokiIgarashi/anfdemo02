@@ -34,7 +34,7 @@ az network vnet create -g anfdemo-rg -n anfjpe-vnet \
 ## 3. Create ANF subnet
 - ANF subnet name: anf-subnet
 - ANF subnet: 172.20.1.0/26
-- ANF delegation: Microsoft.Netapp/volumes
+- ANF delegation: Microsoft.Netapp/volumes ##何のために委任が必要なのか書いて置いて欲しい（by Igarashi）
 <pre>
 az network vnet subnet create \
     --resource-group anfdemo-rg \
