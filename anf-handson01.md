@@ -139,6 +139,8 @@ Maximum number of volumes per capacity pool: 500</br>
 [GUI: Volume](images/create-volume.png)
 [GUI: Set NFS 4.1](images/create-volume2.png)
 
+## ポリシーのエクスポートの説明（今回は００００だが、何のために設定するのか？）があると素敵（by Igarashi）
+
 ## 9. Login on SUSE via Bastion
 - Login as root `sudo su -` or `sudo -i`
 - Verify login as root `whoami`
