@@ -178,7 +178,7 @@ az netappfiles volume update -g anfdemo-rg \
 - Create one-time snapshot: *snapshot01*
 - Create clone volume from the snapshot
 - Revert
-- Create one-time snapshot: *snapshot01*
+- Create one-time snapshot: *snapshot01*  ## クローンを作成する手順（nfsvol2）が欲しい (by Igarashi)
 Note) Max number of snapshot per volume is 255
 
 <pre>
