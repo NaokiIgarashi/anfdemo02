@@ -211,6 +211,8 @@ az netappfiles snapshot policy create -g anfdemo-rg \
     --enabled true
 </pre>
 
+## policy1のサンプル入れて欲しい（by Igarashi）
+
 ## 17. Change QoS type to Manual from Auto
 <pre>
 az netappfiles pool update -g anfdemo-rg \
